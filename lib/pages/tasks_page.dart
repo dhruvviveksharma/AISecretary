@@ -15,7 +15,6 @@ class _TasksPageState extends State<TasksPage> {
   // Replace with your actual Todoist API token
   // You can also use dotenv to load this from an .env file
   late String TODOIST_API_TOKEN;
-  // static const String TODOIST_API_TOKEN = '6d52c22e32acedf49ce4557783645805dca0ebab';
   static const String TODOIST_BASE_URL = 'https://api.todoist.com/rest/v2';
 
   List<Task> tasks = [];
